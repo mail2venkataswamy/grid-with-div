@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <style>
+      .rTable {
+        display: table;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      .rTableRow {
+        display: table-row;
+        display: table-row-group;
+      }
+      .rTableHeading {
+        display: table-header-group;
+        font-weight: bold;
+        background-color: rgb(129, 175, 129);
+      }
+      .rTableHead,
+      .rTableCell {
+        display: table-cell;
+        border: 1px solid;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="/grid.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width intial-scale=1.0" />
+    <title>HTML-GRID</title>
+    <style>
+      table {
+        text-align: center;
+        border-collapse: collapse;
+      }
+      th {
+        font: bold;
+        background-color: rgb(109, 155, 109);
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      #footer {
+        background-color: rgb(194, 221, 194);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML GRID</h1>
+    <table width="100%" border="1" cellpadding="5">
+      <tr>
+        <th>Month</th>
+        <th>Expense</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Jan</td>
+        <td>$100</td>
+        <td>Cofee</td>
+      </tr>
+      <tr>
+        <td>feb</td>
+        <td>$101</td>
+        <td>Eggs</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>$102</td>
+        <td>Food</td>
+      </tr>
+      <tr id="footer">
+        <td>SUM</td>
+        <td>$303</td>
+        <td>All Done</td>
+      </tr>
+    </table>
+  </body>
+  <footer></footer>
+</html>
